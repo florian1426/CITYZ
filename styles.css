@@ -1,0 +1,732 @@
+
+ /* CSS ENTIER RECUPERER */
+  
+
+
+/*A AJOUTER AU CSS D'ORIGINE  */
+
+
+          /*  |
+              |
+              |
+              |
+              |
+             \  /
+              \/                    */
+
+
+
+    /*CSS POUR LA PAGE DE DESCRIPTION DE LA FORMATION    */
+
+  .titredelaformation{
+      background-color: #8cabe1;
+      text-align: center;
+      font-size: 26px;
+      font-weight: bold;
+      font-family: "Uniform", sans-serif;
+      letter-spacing: 0.45px;
+      color: #ffffff;
+      opacity: 1;
+  }
+
+
+
+  .description1ErePartie{
+      background-color: white;
+      color:#144877 ;
+      width: 100%;
+  }
+
+  .description2EmePartie{
+      background-color: #E9E9E9;
+      color:#144877 ;
+  }
+
+ 
+
+
+
+.btn{
+    width: 100%;
+    background: #8cabe1 0 0 no-repeat  !important;
+    font-family: "Montserrat", sans-serif;
+    font: Bold  Uniform;
+    color: #ffffff !important;
+    opacity: 1;
+  
+    
+  
+}
+
+.icone{
+    width: 30px;
+    height: 30px;
+    margin-right: 6px;
+}
+
+.aligner{
+    margin-right: 4px;
+    margin-bottom: 5px;
+}
+
+span{
+  font-size: 1.5em;
+}
+
+    /* CSS POUR LA PAGE DE FORMULAIRE D'INSCRIPTION */
+
+.formulaire{
+        background-color: #E9E9E9;
+        color:#144877 ;
+        
+      }
+
+
+.adresse{
+    margin-bottom: -13px;
+}
+
+.largeurcivilite{
+  width: 49%;
+}
+
+
+      /* FIN DES AJOUTS  */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* CSS DORIGINE */
+
+
+.container {
+    scroll-snap-align: start;
+    margin-top: 1000px;
+    animation: move-up 0.75s linear forwards;
+    background-color: #f8f8f9;
+    text-align: center;
+    box-shadow: 0 80px 98px #0000000f;
+    padding-right: 0 !important;
+    padding-left: 0 !important;
+    width: 58% !important;
+  }
+
+
+.main-logo {
+    margin-left: 15px;
+    width: 142px;
+    height: 31px;
+  }
+  body {
+    background-color: #f8f8f9 !important;
+    text-align: center !important;
+    background: url("IMAGES/temporaire_back_right.svg") bottom right no-repeat
+        fixed,
+      url("IMAGES/temporaire_back_left.svg") bottom left no-repeat fixed;
+    background-size: 20%;
+  }
+
+ 
+  
+  .btn-connect.main-title {
+    font: Bold 20px Uniform;
+    color: #ffffff !important;
+    opacity: 1;
+  }
+
+  .btn-connect {
+    width: 150px;
+    height: 50px;
+    background: #8cabe1 0 0 no-repeat padding-box !important;
+    font-weight: bold;
+    font-size: 20px;
+    letter-spacing: 0.3px;
+    font-family: "Montserrat", sans-serif;
+    color: #ffffff;
+  }
+
+
+  .btn-connect.main-title {
+    margin-right: 0px;
+font: bolder 15px Uniform;
+color: #ffffff;
+opacity: 1;
+}
+
+.souscrire-btn:hover {
+transform: scale(1.1);
+color: #ffffff !important;
+}
+
+.main-title-lable {
+border-bottom: 3px solid #144877;
+font-family: "Montserrat", sans-serif;
+font-weight: bold;
+}
+
+.main-title {
+font-family: "Montserrat", sans-serif;
+color: #144877 !important;
+font-weight: bolder;
+}
+
+.main-title.nav-link.active {
+border-bottom: 3px solid #144877;
+padding-bottom: 0;
+padding-right: 0 !important;
+padding-left: 0 !important;
+font-family: "Montserrat", sans-serif;
+font-weight: bolder;
+}
+
+.cityz-nav {
+width: 58%;
+}
+
+.navbar {
+padding: 0 !important;
+}
+
+.main-text {
+font-family: "Uniform", sans-serif;
+font-size: 30px;
+font-weight: bold;
+letter-spacing: 0.45px;
+color: #8cabe1;
+}
+
+.btn.souscrire-btn {
+background: #8cabe1 0 0 no-repeat padding-box;
+transition: transform 0.2s;
+text-align: center;
+font-family: "Montserrat", sans-serif;
+font-weight: bold;
+font-size: 21px;
+letter-spacing: 0.42px;
+color: #ffffff;
+}
+
+.text {
+font-family: "Montserrat", sans-serif;
+font-size: 15px;
+letter-spacing: 0.3px;
+color: #144877;
+vertical-align: middle !important;
+}
+
+
+.w-65 {
+    width: 65% !important;
+  }
+  
+  .card-item {
+    background: #ffffff 0 0 no-repeat padding-box;
+    box-shadow: 0 3px 6px #0000000f;
+    border-radius: 10px;
+  }
+
+  @media only screen and (max-width: 1250px) {
+    .cityz-nav {
+      width: 68%;
+    }
+  }
+  
+  .footer {
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    letter-spacing: 0.3px;
+    color: #144877;
+  }
+  
+  .footer-404 {
+    position: fixed;
+    bottom: 0;
+    left: 34%;
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    letter-spacing: 0.3px;
+    color: #144877;
+  }
+  
+  .p404 {
+    margin-top: 20%;
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+    letter-spacing: 0.3px;
+    color: #144877;
+  }
+  
+  /*autre services style*/
+  
+  .main_card {
+    scroll-snap-align: start;
+    width: 58%;
+    margin-top: 3%;
+    margin-bottom: 30px;
+    animation: move-up 0.75s linear forwards;
+    background: #f8f8f9 0% 0% no-repeat padding-box;
+    box-shadow: 0px 80px 98px #0000000f;
+    padding-bottom: 50px;
+  }
+  
+  @media (min-width: 1024px) {
+    .main_card {
+      min-width: 922px;
+      max-width: 1024px;
+    }
+  }
+  
+  @media (max-width: 1024px) {
+    .main_card {
+      min-width: 90%;
+    }
+  }
+  
+  .main-card-title {
+    font-weight: bold;
+    font-family: "Varela Round", sans-serif;
+    letter-spacing: 0.45px;
+    color: #ff4550;
+    font-size: 30px;
+    margin: 25px auto;
+  }
+  
+  .main-card-image {
+    background: #ffffff;
+    width: 100%;
+    border-radius: 10px 10px 0 0;
+  }
+  
+  .a-propos-card {
+    background: #8cabe1 0% 0% no-repeat padding-box;
+    padding: 0 0;
+    opacity: 1;
+  }
+  
+  .a-propos-card-text {
+    text-align: center;
+    font-size: 26px;
+    font-weight: bold;
+    font-family: "Uniform", sans-serif;
+    letter-spacing: 0.45px;
+    color: #ffffff;
+    opacity: 1;
+  }
+  .a-propos-card-text-text {
+    text-align: center;
+    font-size: 22px;
+    font-family: "Uniform", sans-serif;
+    letter-spacing: 0.6px;
+    color: #ffffff;
+    opacity: 1;
+    margin-left: 94px;
+    margin-right: 94px;
+  }
+  
+  .a-propos-sous-text {
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: "Uniform", sans-serif;
+    letter-spacing: 0.45px;
+    color: #ffffff;
+    opacity: 1;
+  }
+  
+  .services-img {
+    height: 120px;
+  }
+  
+  .services {
+    margin: 15px 30px;
+  }
+  
+  .card-text {
+    font-family: "Montserrat", sans-serif;
+    font-size: 15px;
+    font-weight: 300;
+    letter-spacing: 0.3px;
+    color: #144877;
+  }
+  
+  .home-image {
+    display: block;
+    margin: auto;
+    width: 100%;
+  }
+  
+  .card-body {
+    padding: 1.25rem 0 !important;
+  }
+  
+  .card-body {
+    padding: 0;
+  }
+  .size-img {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  .size-img img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .us-text-title {
+    text-align: left;
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+    font-size: 10px;
+    letter-spacing: 1.5px;
+    color: red;
+    text-transform: uppercase;
+    opacity: 1;
+  }
+  
+  .us-text {
+    padding: 0;
+  }
+  
+  .us {
+    margin-left: 8%;
+    margin-right: 8%;
+  }
+  
+  .us-img {
+    background: #ffffff 0% 0% no-repeat;
+    box-shadow: 0px 3px 6px #0000000f;
+  }
+  
+  .us-text-title {
+    text-align: left;
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    letter-spacing: 2px;
+    color: #144877;
+    text-transform: uppercase;
+    opacity: 1;
+  }
+  
+  .us-text-text {
+    text-align: left;
+    font-family: "Montserrat", sans-serif;
+    font-size: 15px;
+    letter-spacing: 0.3px;
+    color: #144877;
+    opacity: 1;
+    padding-right: 15px;
+    padding-left: 10px;
+  }
+  
+  .us-distinctions {
+    margin-bottom: 20px;
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    letter-spacing: 2px;
+    color: #144877;
+    text-transform: uppercase;
+    opacity: 1;
+    border-bottom: 5px solid #144877;
+  }
+  
+  .us-distinctions-text {
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+    font-size: 15px;
+    letter-spacing: 0.3px;
+    color: #144877;
+    opacity: 1;
+    margin-bottom: 20px;
+  }
+  
+  .main-title-lable {
+    border-bottom: 3px solid #144877;
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+  }
+  
+  .us-distinctions-medaille {
+    color: #144877;
+    padding-top: 175px;
+    background: transparent url("../img/a_propos_distinctions_medaille_1.svg") 0 0
+      no-repeat padding-box;
+    background-position: top;
+  }
+  
+  .us-distinctions-medaille2 {
+    color: #144877;
+    padding-top: 175px;
+    background: transparent url("../img/a_propos_distinctions_medaille_2.svg") 0 0
+      no-repeat padding-box;
+    background-position: top;
+    width: 100%;
+  }
+  
+  .us-distinctions-medaille3 {
+    color: #144877;
+    padding-top: 175px;
+    background: transparent url("../img/a_propos_distinctions_medaille_3.svg") 0 0
+      no-repeat padding-box;
+    background-position: top;
+  }
+  
+  .us-team1 {
+    transition: transform 0.2s;
+    padding-top: 175px;
+    background: transparent url("../img/a_propos_equipe_benjamin.svg") 0 0
+      no-repeat padding-box;
+    background-position: top;
+  }
+  
+  .us-team1:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+  }
+  
+  .us-team2 {
+    transition: transform 0.2s;
+    padding-top: 175px;
+    background: transparent url("../img/a_propos_equipe_thibaut.svg") 0 0
+      no-repeat padding-box;
+    background-position: top;
+    width: 100%;
+  }
+  
+  .us-team2:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+  }
+  
+  .us-team3 {
+    transition: transform 0.2s;
+    padding-top: 175px;
+    background: transparent url("../img/a_propos_equipe_abdessamad.svg") 0 0
+      no-repeat padding-box;
+    background-position: top;
+  }
+  
+  .us-team3:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+  }
+  
+  .us-team-name {
+    text-align: center;
+    font: Bold 15px/25px Montserrat;
+    letter-spacing: 1.5px;
+    color: #144877;
+    text-transform: uppercase;
+    opacity: 1;
+  }
+  
+  .us-team-metier {
+    color: #144877;
+  }
+  
+  textarea.form-control {
+    height: 145px !important;
+  }
+  
+  .btn-contact.btn-block {
+    background: #fff !important;
+    border-radius: 10px !important;
+  }
+  
+  .profile-link {
+    text-decoration: none !important;
+    color: inherit !important;
+  }
+  
+  .contact {
+    font: Bold 15px/25px Montserrat;
+    background: #ffffff 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #0000000f;
+    border-radius: 10px;
+    color: #144877 !important;
+  }
+  
+  .contact input {
+    border: hidden;
+  }
+  
+  .contact input:focus {
+    border: hidden !important;
+    box-shadow: none !important;
+  }
+  
+  .contact textarea {
+    border: hidden;
+  }
+  
+  .contact textarea:focus {
+    border: hidden !important;
+    box-shadow: none !important;
+  }
+  
+  .btn-contact {
+    color: #144877 !important;
+    font-family: "Uniform", sans-serif;
+    font-size: 18px !important;
+    font-weight: 900 !important;
+    background: #ffffff 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #0000000f;
+    border-radius: 10px;
+  }
+  
+  .nav-link.active span {
+    border-bottom: 3px solid #144877;
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+  }
+  .cityz-nav {
+    width: 58%;
+  }
+  
+  /* The Overlay (background) */
+  .overlay {
+    /* Height & width depends on how you want to reveal the overlay (see JS below) */
+    height: 100%;
+    width: 0;
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    right: 0;
+    top: 0;
+    background-color: #ffffff; /* Black w/opacity */
+    overflow-x: hidden; /* Disable horizontal scroll */
+    transition: 0.5s; /* 0.5 second transition effect to slide in or slide down the overlay (height or width, depending on reveal) */
+  }
+  
+  /* Position the content inside the overlay */
+  .overlay-content {
+    position: relative;
+    top: 5%; /* 25% from the top */
+    width: 100%; /* 100% width */
+    text-align: center; /* Centered text/links */
+    margin-top: 30px; /* 30px top margin to avoid conflict with the close button on smaller screens */
+  }
+  
+  .nav-logo-mobile {
+    height: 150px;
+  }
+  
+  .mobile-footer {
+    position: absolute;
+    bottom: 0;
+  }
+  
+  .overlay-item {
+    font-family: Uniform;
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #144877 !important;
+    opacity: 1;
+  }
+  .row {
+    display: flex;
+    margin-right: 0 !important ;
+    margin-left: 0 !important ;
+  }
+  
+  .column {
+    flex: 33%;
+    padding: 5px;
+  }
+  
+  .m-icon-bar {
+    width: 22px;
+    height: 2px;
+    background-color: #b6b6b6;
+    display: block;
+    transition: all 0.2s;
+    margin-top: 4px;
+  }
+  
+  .navbar-toggler {
+    z-index: 20;
+    border: none;
+    background: transparent !important;
+  }
+  
+  .navbar-toggler .top-bar {
+    transform: rotate(45deg);
+    transform-origin: 10% 10%;
+  }
+  
+  .navbar-toggler .middle-bar {
+    opacity: 0;
+  }
+  
+  .navbar-toggler .bottom-bar {
+    transform: rotate(-45deg);
+    transform-origin: 10% 90%;
+  }
+  
+  .navbar-toggler.collapsed .top-bar {
+    transform: rotate(0);
+  }
+  
+  .navbar-toggler.collapsed .middle-bar {
+    opacity: 1;
+  }
+  
+  .navbar-toggler.collapsed .bottom-bar {
+    transform: rotate(0);
+  }
+  
+  .sticky-offset {
+    top: 56px;
+  }
+  
+  .underline-effect {
+    border-bottom: 3px solid #144877;
+    padding-bottom: 27px;
+    margin-bottom: 15px;
+    text-align: left;
+  }
+  
+  .img-backgroun {
+    background: #ffffff 0% 0% no-repeat;
+    box-shadow: 0px 3px 6px #0000000f;
+  }
+  
+  .btn.focus,
+  .btn:focus {
+    box-shadow: none !important;
+  }
+  
+  @media only screen and (max-width: 768px) {
+    body {
+      background: none;
+    }
+    .container {
+      width: 100% !important;
+    }
+  }
+  
+  @keyframes move-up {
+    to {
+      margin-top: 2%;
+    }
+  }
+  
